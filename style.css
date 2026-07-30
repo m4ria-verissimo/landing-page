@@ -76,7 +76,7 @@ header button{
     height: 27px;
     margin-left: 10px;
     border-radius: 10px;
-    border: 1px solid #C9A961;
+    border:none;
 }
 .whats{
      color:#FFF8F0;
