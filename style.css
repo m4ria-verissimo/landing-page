@@ -2,16 +2,18 @@
     margin: 0;
     padding: 0;
 }
-#menu{
+#menu {
     display: none;
+    
    
 }
-#menu.ativo{
+#menu.ativo {
     display: flex;
     flex-direction: column;
+    color:black;
 }
-nav a{
-    text-decoration: none;
+#menu a{
+color:black;
 }
 header{
 display: flex;
@@ -23,12 +25,17 @@ header h1{
     text-align: center;
     font-style:oblique;
     color:#5A3B2A;
+    
    
 }
 header button{
  background-color: #F5F1E8;
  border: none ;
  font-size: 22px;
+}
+.menu-btn{
+    color:black;
+    background: transparent;
 }
 .hero{
     background-image: url(fundocigana.jpeg);
