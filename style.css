@@ -10,23 +10,21 @@
     display: flex;
     flex-direction: column;
 }
-.menu-btn{
-   
-}
+
 header{
 display: flex;
-background-color: #ebcfa2;
+background-color: #F5F1E8;
 
 }
 header h1{
     margin-left: 80px;
     text-align: center;
     font-style:oblique;
-    color:#2D241E;
+    color:#5A3B2A;
    
 }
 header button{
- background-color: #ebcfa2;
+ background-color: #F5F1E8;
  border: none ;
  font-size: 22px;
 }
@@ -34,28 +32,57 @@ header button{
     background-image: url(fundocigana.jpeg);
     background-size: cover;
     background-position: center;
+    display: flex;
+    flex-direction: column;
 
 }
 .hero img{
     width: 100%;
-    height: auto;
+    height: 200PX;
+    
     display: block;
 }
 .hero h4{
-    color:#eeebe9;
+    color:#F5F1E8;
     font-size: 20px;
-    margin-left: 10px;
-    
+    margin-left: 37px;
+    margin-top: 10px;
+
 }
 
 .hero p{
-    color:beige;
+    color:#EADDCF;
     margin-left: 10px;
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    
+    margin-top:5px;
+    margin-left: 27px;
     
 }
 .hero button{
- margin-bottom: 6px;
- margin-top: 7px;
- height: 20px;
- margin-left: 20px;
+ padding: 3px;
+ font-size: 10px;
+
+}
+.agendar{
+    color:#FFF8F0;
+    background-color: #B05A42;
+    margin-top: 18px;
+    width: 190px;
+    height: 27px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 1px solid #C9A961;
+}
+.whats{
+     color:#FFF8F0;
+    background-color: #2F3A28;
+    margin-bottom: 11px;
+    width: 190px;
+    height: 27px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 1px solid #C9A961;
 }
