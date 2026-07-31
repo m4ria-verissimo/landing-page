@@ -12,7 +12,7 @@
     flex-direction: column;
     color:black;
     background-color: #5a3b2a;
-    
+    transition: 0.3s;
 }
  
 #menu a{
