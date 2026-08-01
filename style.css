@@ -4,23 +4,32 @@
 }
 #menu {
     display: none;
+    left: 0;
     
    
-}
+} 
 #menu.ativo {
     display: flex;
     flex-direction: column;
+    position: absolute;
+    top:37px;
+    width: 350px;
+    height: 380px;
     color:black;
-    background-color: #5a3b2a;
-    transition: 0.3s;
+    background-color:#5A3B2A;
+    transition: 0.03s;
+    border-radius: 5px;
 }
  
 #menu a{
-color:#F5F1E8;
+color:#5A3B2A;
+background-color:#f5f1e8e7 ;
 border: #F5F1E8 1px solid;
-padding: 10px;
+border-radius: 25px;
+padding: 13px;
 text-decoration: none;
 font-size: 17px;
+margin-top: 20PX;
 }
 header{
 display: flex;
