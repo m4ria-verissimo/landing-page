@@ -192,9 +192,10 @@ header button{
     background-image: url(WhatsApp\ Image\ 2026-08-02\ at\ 17.39.34.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
-    
+    border: 1px solid  red;
     display: flex;
     flex-direction: column;
+    height: 268px;
    
 }
 #sobre p{
@@ -203,10 +204,9 @@ header button{
     font-size: 11px;
     color:#5A3B2A;
     font-weight:bolder;
-
     padding-bottom: 80px;
     margin-top: 43px;
-    padding-left: 20px;
+    padding-left: 25px;
    
 }
 
