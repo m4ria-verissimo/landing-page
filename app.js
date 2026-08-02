@@ -1,6 +1,18 @@
-const botao =document.getElementById("menu-btn");
-const menu= document.getElementById("menu");
+const menuBtn = document.getElementById('menu-btn');
+const fecharMenu = document.getElementById('fechar-menu');
+const menu = document.getElementById('menu');
+const overlay = document.getElementById('overlay');
 
-botao.addEventListener("click" , () =>{
-    menu.classList.toggle("ativo");
+menuBtn.addEventListener('click', () => {
+  menu.classList.add('ativo');
+  overlay.classList.add('ativo');
+  menuBtn.style.display = 'none';       // esconde botão abrir
+  fecharMenu.style.display = 'block';   // mostra botão fechar
+});
+
+fecharMenu.addEventListener('click', () => {
+  menu.classList.remove('ativo');
+  overlay.classList.remove('ativo');
+  menuBtn.style.display = 'block';      // volta botão abrir
+  fecharMenu.style.display = 'none';    // esconde botão fechar
 });
