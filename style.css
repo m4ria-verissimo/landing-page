@@ -15,7 +15,7 @@
     
 }
 #menu{
-    background-image: url(WhatsApp\ Image\ 2026-08-01\ at\ 20.47.10.jpeg);
+    background-image: url(menu.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
     width: 300px;
@@ -110,7 +110,7 @@ a:hover{
 
 header{
 display: flex;
-background-color: #F5F1E8;
+background-color: #EED8BB;
 
 }
 header h1{
@@ -188,3 +188,27 @@ header button{
     border-radius: 10px;
     border: none;
 }
+#sobre{
+    background-image: url(WhatsApp\ Image\ 2026-08-02\ at\ 17.39.34.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    flex-direction: column;
+   
+}
+#sobre p{
+    width: 210px;
+    padding: 0px;
+    font-size: 11px;
+    color:#5A3B2A;
+    font-weight:bolder;
+
+    padding-bottom: 80px;
+    margin-top: 43px;
+    padding-left: 20px;
+   
+}
+
+
+    
