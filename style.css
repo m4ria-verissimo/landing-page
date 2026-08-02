@@ -2,35 +2,102 @@
     margin: 0;
     padding: 0;
 }
-#menu {
-    display: none;
-    left: 0;
+
+#menu-btn{
+    position: fixed;
+    top:3px;
+    left: 20px;
+    background: white;
+    border: none;
+    font-size: 25px;
+    cursor:pointer;
+    z-index: 1001;
     
-   
-} 
-#menu.ativo {
+}
+#menu{
+    background-image: url(imgmenu.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 250px;
+    height:300px;
+    position: fixed;
+    top:0;
+    left: -100%;
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top:37px;
-    width: 350px;
-    height: 380px;
-    color:black;
-    background-color:#5A3B2A;
-    transition: 0.03s;
-    border-radius: 5px;
+    padding: 80px 30px;
+    gap:1px;
+    transition: .4s ease;
+    z-index: 1000;
+    background-color:rgba(0, 0, 0, 0.712);
 }
- 
+
+#menu.ativo {
+    left: 0; 
+  
+    
+}
+
+
 #menu a{
-color:#5A3B2A;
-background-color:#f5f1e8e7 ;
-border: #F5F1E8 1px solid;
-border-radius: 25px;
-padding: 13px;
-text-decoration: none;
-font-size: 17px;
-margin-top: 20PX;
+    text-decoration: none;
+    display: flex;
+    padding: 10px 10px;
+    border-bottom: 1px solid #daa520;
+    color:#EADDCF;
+    
 }
+#menu h2{
+    text-align: center;
+    padding-bottom: 40px;
+    font-family:serif;
+    color:#F5F1E8;
+    border-bottom: 1px solid #daa520;
+    
+}
+#menu p{
+    color:#F5F1E8;
+    font-size: small;
+    text-align: center;
+    padding-top: 15px;
+
+}
+#menu i{
+    color:#daa520;
+    margin-right: 10px;
+    font-size: 15px;
+   
+}
+a:hover{
+    background-color: #f5f1e841;
+}
+
+#fechar-menu{
+    position: absolute;
+    top:6px;
+    font-size: 25px;
+    padding: 3px 7px;
+    border-radius: 50%;
+    cursor:pointer;
+    right: 30px;
+    color:#daa520;
+    background-color: transparent;
+}
+#overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display:none;
+    transition: .4s;
+    z-index: 999;
+}
+#overlay.ativo , #menu.ativo{
+    display:block;
+}
+
 header{
 display: flex;
 background-color: #F5F1E8;
