@@ -16,3 +16,13 @@ fecharMenu.addEventListener('click', () => {
   menuBtn.style.display = 'block';      // volta botão abrir
   fecharMenu.style.display = 'none';    // esconde botão fechar
 });
+const linksMenu= document.querySelectorAll("#menu a");
+linksMenu.forEach(link => { 
+    link.addEventListener('click' ,() => {
+        menu.classList.remove('ativo');
+        overlay.classList.remove('ativo');
+        menuBtn.style.display='block';
+        fecharMenu.style.display="none";
+
+    });
+});
