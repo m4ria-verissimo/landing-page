@@ -192,10 +192,9 @@ header button{
     background-image: url(WhatsApp\ Image\ 2026-08-02\ at\ 17.39.34.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
-    border: 1px solid  red;
     display: flex;
     flex-direction: column;
-    height: 268px;
+    height: 276px;
    
 }
 #sobre p{
@@ -205,40 +204,18 @@ header button{
     color:#5A3B2A;
     font-weight:bolder;
     padding-bottom: 80px;
-    margin-top: 43px;
+    margin-top: 57px;
     padding-left: 25px;
    
 }
-main{
-    
+.como{
+    background-color: #5A3B2A;
+    color:#daa520;
+    text-align: center;
  
 }
-.como{
-    border:1px solid red;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
-    text-align: center;
-    background-color:#5A3B2A;
-    padding-top: 20px;
-   
-}
-.como div{
-    width: 40% 
-}
-.como i{
-    font-size: 25px;
-    color:#daa520;
-    margin-bottom: 5PX;
 
+.passos{
+    display: flex;
+    justify-content: space-between;
 }
- h6{
-    text-align: center;
-    color:#daa520;
-    background-color: #5A3B2A;
-}
-.como p{
-    color:#F5F1E8;
-}
-    
