@@ -209,6 +209,36 @@ header button{
     padding-left: 25px;
    
 }
+main{
+    
+ 
+}
+.como{
+    border:1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: center;
+    background-color:#5A3B2A;
+    padding-top: 20px;
+   
+}
+.como div{
+    width: 40% 
+}
+.como i{
+    font-size: 25px;
+    color:#daa520;
+    margin-bottom: 5PX;
 
-
+}
+ h6{
+    text-align: center;
+    color:#daa520;
+    background-color: #5A3B2A;
+}
+.como p{
+    color:#F5F1E8;
+}
     
