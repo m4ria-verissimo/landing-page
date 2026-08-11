@@ -214,12 +214,12 @@ header button{
     background-size: cover;
     color:#daa520;
     text-align: center;
-    border-right: #FFD700;
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
     text-align: center;
     margin-top: -10px;
+    padding-bottom: 12px;
     
 }
 .como h3{
