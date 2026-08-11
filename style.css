@@ -209,13 +209,49 @@ header button{
    
 }
 .como{
-    background-color: #5A3B2A;
+    background-image: url(textura-papel-antiguo_762785-169933.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
     color:#daa520;
     text-align: center;
- 
+    border-right: #FFD700;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    text-align: center;
+    margin-top: -10px;
+    
 }
+.como h3{
+    color:#5A3B2A;
+    text-align: center;
+    margin-left: 120px;
+}
+.como h4{
+    border: 1px solid;
+    border-radius: 50%;
+    width:20px ;
+    height: 20px;
+    margin-left: 40px;
+     
+}
+.como i{
+    margin-top: 30px;
+    margin-left: -19px;
+}
+.como p{
+    color:#5A3B2A;
+}
+
 
 .passos{
     display: flex;
     justify-content: space-between;
+}
+.passo{
+    border: 1px solid #FFD700;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
 }
