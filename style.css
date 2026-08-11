@@ -297,9 +297,11 @@ header button{
 .precos button{
     background-color:#722F37 ;
     color:#FFF8F0;
-    padding: 3px;
+    padding: 4px;
     margin-top: 3px;
+    margin-bottom: 5px;
     border-radius: 10px;
+    border: none;
 }
 .precos ,.titu{
     color:#FFF8F0;
