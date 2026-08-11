@@ -245,10 +245,8 @@ header button{
 }
 .como p{
     color:#daa520;
-    
+
 }
-
-
 .passos{
     display: flex;
     justify-content: space-between;
@@ -259,4 +257,44 @@ header button{
     padding: 15px;
     display: flex;
     flex-wrap: wrap;
+}
+.precos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    text-align: center;
+    background-image: url( fundocards.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+.precos h2{
+    margin-left:10px;
+    margin-top: 18px;
+    font-size:17px ;
+    color:#FFF8F0;
+}
+.avulso{
+    
+    padding:14px;
+    background-image: url(Cards.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+    width: 80px;
+    color:black;
+   
+}
+.precos H1 {
+    color:#FFD700;
+}
+.precos button{
+    background-color:#722F37 ;
+    color:#FFF8F0;
+    padding: 3px;
+    margin-top: 3px;
+    border-radius: 10px;
+}
+.precos ,.titu{
+    color:#FFF8F0;
 }
