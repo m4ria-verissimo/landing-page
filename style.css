@@ -277,8 +277,11 @@ header button{
 .precos h2{
     margin-left:10px;
     margin-top: 18px;
-    font-size:17px ;
+    font-size:18px ;
     color:#FFF8F0;
+}
+.precos .subt{
+   font-size: 14px;
 }
 .avulso{
     
