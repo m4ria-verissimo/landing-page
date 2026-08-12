@@ -11,6 +11,61 @@
 
 </head>
 <body>
+
+ <div id="overlay-modal">
+
+    <div id="modal">
+    
+        <form>
+            <p>Nome completo</p><input type="text" placeholder="Seu nome">
+            <p>Numero de telefone:</p> <input type="tel" placeholder="Seu contato">
+            <br>
+
+            <label for="perguntas">Quantas perguntas deseja:</label>
+            <select id="perguntas" name="escolha">
+                <option value="">Selecione</option>
+                <option value="1">1 Pergunta</option>
+                <option value="3">3 Perguntas</option>
+                <option value="5">5 Perguntas</option>
+                <option value="10">10 Perguntas</option>
+            </select>
+            <br>
+            <label for="area">Área da consulta:</label>
+            <br>
+            <input type="checkbox" id="amor" name="area"> 
+            <labe for="amorosa">Amorosa</label>
+             <input type="checkbox" id="profissional" name="area"> 
+            <labe for="profissional">Profissional</label>  
+            <input type="checkbox" id="financeira" name="area"> 
+            <labe for="financeira">Financeira</label>    
+            <input type="checkbox" id="espiritual" name="area"> 
+            <labe for="espiritual">Espiritual</label>
+            <input type="checkbox" id="familiar" name="area"> 
+            <labe for="familiar">Familiar</label>
+            <input type="checkbox" id="amizades" name="area"> 
+            <labe for="amizades">Amizades</label>
+            <input type="checkbox" id="geral" name="area"> 
+            <labe for="geral">Geral</label>
+
+            <p>Pergunta:</p>
+            <input placeholder="Sua pergunta">
+            <br>
+            <label>Data</label>
+            <input type="date">
+            <label>Hora</label>
+            <input type="time">
+
+            <br>
+            <label>Observação:</label>
+            <input type="text">
+
+            <button>Agendar consulta</button>
+            </form>
+    </div>
+</div>
+    
+
+
      <header>
         
         <button id="menu-btn">☰</button>
@@ -18,6 +73,7 @@
   
         
  </header>
+
      <div id="overlay"> </div>
     
   
@@ -113,78 +169,34 @@
             <h3>1</h3>
             <p>Pergunta</p>
             <p>R$ 5 </p>
-            <button>Agendar</button>
+            <button onclick="agendar()">Agendar</button>
            </div>
            <div class="avulso">
             <h1>♦</h1>
             <h3>3</h3>
             <P>Perguntas</P>
             <p>R$ 10</p>
-            <button>Agendar</button>
+            <button onclick="agendar()">Agendar</button>
            </div>
            <div class="avulso">
             <h1>♠</h1>
             <h3>5</h3>
             <p>Perguntas</p>
             <p>R$ 20</p>
-            <button>Agendar</button>
+            <button onclick="agendar()">Agendar</button>
            </div>
            <div class="avulso">
             <h1>♣</h1>
             <h3>10</h3>
             <p>Perguntas</p>
             <p>R$ 40</p>
-            <button>Agendar</button>
+            <button onclick="agendar()">Agendar</button>
            </div>
 
         </section>
-        <section class="agendamento">
-        <form>
-            <p>Nome completo</p><input type="text" placeholder="Seu nome">
-            <p>Numero de telefone:</p> <input type="tel" placeholder="Seu contato">
-            <br>
+  
 
-            <label for="perguntas">Quantas perguntas deseja:</label>
-            <select id="perguntas" name="escolha">
-                <option value="">Selecione</option>
-                <option value="1">1 Pergunta</option>
-                <option value="3">3 Perguntas</option>
-                <option value="5">5 Perguntas</option>
-                <option value="10">10 Perguntas</option>
-            </select>
-            <br>
-            <label for="area">Área da consulta:</label>
-            <br>
-            <input type="checkbox" id="amor" name="area"> 
-            <labe for="amorosa">Amorosa</label>
-             <input type="checkbox" id="profissional" name="area"> 
-            <labe for="profissional">Profissional</label>  
-            <input type="checkbox" id="financeira" name="area"> 
-            <labe for="financeira">Financeira</label>    
-            <input type="checkbox" id="espiritual" name="area"> 
-            <labe for="espiritual">Espiritual</label>
-            <input type="checkbox" id="familiar" name="area"> 
-            <labe for="familiar">Familiar</label>
-            <input type="checkbox" id="amizades" name="area"> 
-            <labe for="amizades">Amizades</label>
-            <input type="checkbox" id="geral" name="area"> 
-            <labe for="geral">Geral</label>
 
-            <p>Pergunta:</p>
-            <input placeholder="Sua pergunta">
-            <br>
-            <label>Data</label>
-            <input type="date">
-            <label>Hora</label>
-            <input type="time">
-
-            <br>
-            <label>Observação:</label>
-            <input type="text">
-
-            <button>Agendar consulta</button>
-            </form>
-        </section>
         <section class="feedback">
             <h3>O que minhas clientes dizem</h3>
             <div>fkdfkdkfkd
