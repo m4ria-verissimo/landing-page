@@ -26,3 +26,12 @@ linksMenu.forEach(link => {
 
     });
 });
+ 
+
+ 
+function agendar(){
+  
+  const modal = document.getElementById("overlay-modal");
+
+  modal.style.display="block";
+}
