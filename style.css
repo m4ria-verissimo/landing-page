@@ -309,3 +309,25 @@ header button{
 .precos ,.titu{
     color:#FFF8F0;
 }
+#overlay-modal{
+    display:none;
+    position:fixed;
+    inset:0;
+    z-index:1000;
+
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(0,0,0,0.65);
+}
+#modal{
+    background-color: red;
+    width: 90%;
+    max-width: 500px;
+    max-height: 90vh;
+    overflow-y: auto;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 25vh;
+}
