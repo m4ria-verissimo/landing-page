@@ -27,11 +27,14 @@ linksMenu.forEach(link => {
     });
 });
  
-
- 
-function agendar(){
+function agendar(botao){
   
   const modal = document.getElementById("overlay-modal");
-
   modal.style.display="block";
+
+  const valor = botao.value;
+  console.log(valor);
+
+  
+
 }
