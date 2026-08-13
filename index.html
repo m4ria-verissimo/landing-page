@@ -17,18 +17,15 @@
     <div id="modal">
     
         <form>
-            <p>Nome completo</p><input type="text" placeholder="Seu nome">
-            <p>Numero de telefone:</p> <input type="tel" placeholder="Seu contato">
-            <br>
+          <button class="close-modal">&times;</button>
+            <p>Nome completo:</p><input type="text" placeholder="Seu nome">
 
-            <label for="perguntas">Quantas perguntas deseja:</label>
-            <select id="perguntas" name="escolha">
-                <option value="">Selecione</option>
-                <option value="1">1 Pergunta</option>
-                <option value="3">3 Perguntas</option>
-                <option value="5">5 Perguntas</option>
-                <option value="10">10 Perguntas</option>
-            </select>
+             <p>Nascimento:</p>
+            <input type="date">
+            <br>
+            <p>Numero de telefone:</p> <input type="tel" placeholder="Seu contato">
+            
+            
             <br>
             <label for="area">Área da consulta:</label>
             <br>
@@ -169,28 +166,28 @@
             <h3>1</h3>
             <p>Pergunta</p>
             <p>R$ 5 </p>
-            <button onclick="agendar()">Agendar</button>
+            <button onclick="agendar(this)" value="1">Agendar</button>
            </div>
            <div class="avulso">
             <h1>♦</h1>
             <h3>3</h3>
             <P>Perguntas</P>
             <p>R$ 10</p>
-            <button onclick="agendar()">Agendar</button>
+            <button onclick="agendar(this)" value="3">Agendar</button>
            </div>
            <div class="avulso">
             <h1>♠</h1>
             <h3>5</h3>
             <p>Perguntas</p>
             <p>R$ 20</p>
-            <button onclick="agendar()">Agendar</button>
+            <button onclick="agendar(this)" value="5">Agendar</button>
            </div>
            <div class="avulso">
             <h1>♣</h1>
             <h3>10</h3>
             <p>Perguntas</p>
             <p>R$ 40</p>
-            <button onclick="agendar()">Agendar</button>
+            <button onclick="agendar(this)" value="10">Agendar</button>
            </div>
 
         </section>
