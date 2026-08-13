@@ -340,6 +340,7 @@ header button{
     background-color:#6b4a2fc7;
     border:none;
     border-radius: 5px;
+    text-decoration: none;
 }
 p{
    margin-left: 15px;
