@@ -33,8 +33,17 @@ function agendar(botao){
   modal.style.display="block";
 
   const valor = botao.value;
-  console.log(valor);
-
+   
+   const pt = document.getElementById("pt");
+   pt.innerHTML="";
   
+  for(let x = 0; x < valor; x++){
+ 
+   const input = document.createElement("input");
+   input.placeholder = "Sua Pergunta"; 
+   input.style.marginBottom="5px";
+   input.style.marginLeft="2px";
+   pt.appendChild(input);
 
+  }
 }
