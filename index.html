@@ -18,35 +18,42 @@
     
         <form>
           <button class="close-modal">&times;</button>
-            <p>Nome completo:</p><input type="text" placeholder="Seu nome">
+          <div>
+            <label>Nome completo: </label><input type="text" placeholder="Seu nome">
+          </div>
 
-             <p>Nascimento:</p>
-            <input type="date">
-            <br>
-            <p>Numero de telefone:</p> <input type="tel" placeholder="Seu contato">
+          <div>
+            <label>Numero de telefone: </label> <input type="tel" placeholder="Seu contato">
+          </div>
+
+           <div>
+           <label>Nascimento: </label> <input type="date">
+          </div>
             
-            
-            <br>
+        <div class="area">
+          <br>
             <label for="area" >Área da consulta:</label>
-            <br>
+           <br><br>
             <input type="checkbox" id="amor" name="area"> 
-            <labe for="amorosa">Amorosa</label>
+            <label for="amorosa">Amorosa</label>
              <input type="checkbox" id="profissional" name="area"> 
-            <labe for="profissional">Profissional</label>  
+            <label for="profissional">Profissional</label>  
             <input type="checkbox" id="financeira" name="area"> 
-            <labe for="financeira">Financeira</label>    
-            <input type="checkbox" id="espiritual" name="area"> 
-            <labe for="espiritual">Espiritual</label>
-            <input type="checkbox" id="familiar" name="area"> 
-            <labe for="familiar">Familiar</label>
-            <input type="checkbox" id="amizades" name="area"> 
-            <labe for="amizades">Amizades</label>
-            <input type="checkbox" id="geral" name="area"> 
-            <labe for="geral">Geral</label>
+            <label for="financeira">Financeira</label>
 
-            <p>Pergunta:</p>
-            <input placeholder="Sua pergunta">
             <br>
+
+            <input type="checkbox" id="espiritual" name="area"> 
+            <label for="financeira">Espiritual </label>
+            <input type="checkbox" id="amizade" name="area"> 
+            <label for="financeira">Amizade </label>
+            <input type="checkbox" id="geral" name="area"> 
+            <label for="financeira">Geral </label>
+        </div>
+
+        <p class="p">Pergunta(s):</p>
+        <div id="pt"> </div>
+
             <label>Data</label>
             <input type="date">
             <label>Hora</label>
