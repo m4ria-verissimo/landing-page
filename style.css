@@ -322,35 +322,57 @@ header button{
 }
 #modal{
     background-image: url("textura-papel-antiguo_762785-169933.avif");
-    width: 400px;
-    height: 400px;
+    width: 340px;
+    height: 600px;
     overflow-y: auto;
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-top: 10vh;
+    margin-top: 11vh;
+    text-align: center;
+    border-radius: 14px;
   
 }
 .close-modal{
+    padding: 4px;
     padding-left: 11px;
     padding-right: 11px;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 25px;
+    margin-left: 30px;
     margin-bottom: 15px;
-    background-color:#6b4a2fc7;
+    background-color:#6b4a2ff6;
+    color:#4A3525;
     border:none;
     border-radius: 5px;
-    text-decoration: none;
+    display: flex;
+    font-size: 15px;
 }
-p{
-   margin-left: 15px;
-   font-size: 18px;
+form div{
+    margin-bottom: 10px;
 }
 input{
-    margin-left: 15px;
-    margin-top: 4px;
-    padding: 4px;
-    background-color: #6b4a2f;
-    border: none;
-    border-radius: 6px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color:#5A3B2A;
 }
+label{
+    color:#5A3B2A;
+    font-size: 18px;
+ 
+}
+.area{
+    background-color: #5A3B2A;
+    height: 130px;
+    color:#EADDCF;
+}
+.area label{
+    color:#EADDCF;
+    
+}
+.p{
+    font-size: 20px;
+    margin-right: 200px;
+    margin-bottom: 5px;
+}
+
+
