@@ -7,8 +7,6 @@
     <link rel="stylesheet" href="style.css">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-     
-
 </head>
 <body>
 
@@ -18,61 +16,63 @@
     
         <form>
           <button type="button" class="close-modal">&times;</button>
-          <div>
-            <label>Nome completo: </label><input type="text" placeholder="Seu nome">
+          <div >
+            <label>Nome completo: </label><input type="text" placeholder="Seu nome" id="nome">
           </div>
 
-          <div>
-            <label>Numero de telefone: </label> <input type="tel" placeholder="Seu contato">
+          <div >
+            <label>Numero de telefone: </label> <input type="tel" placeholder="Seu contato" id="tel">
           </div>
 
-           <div>
-           <label>Nascimento: </label> <input type="date">
+           <div >
+           <label>Nascimento: </label> <input type="date" id="nasc">
           </div>
             
-        <div class="area">
+        <div class="area" id="area">
           <br>
             <label for="area" >Área da consulta:</label>
            <br><br>
-            <input type="checkbox" id="amor" name="area"> 
+            <input type="checkbox" id="amor" name="area" value="Amorosa"> 
             <label for="amorosa">Amorosa</label>
-             <input type="checkbox" id="profissional" name="area"> 
+             <input type="checkbox" id="profissional" name="area" value="Profissional"> 
             <label for="profissional">Profissional</label>  
-            <input type="checkbox" id="financeira" name="area"> 
+            <input type="checkbox" id="financeira" name="area" value="Financeira"> 
             <label for="financeira">Financeira</label>
 
             <br>
 
-            <input type="checkbox" id="espiritual" name="area"> 
+            <input type="checkbox" id="espiritual" name="area" value="Espiritual"> 
             <label for="financeira">Espiritual </label>
-            <input type="checkbox" id="amizade" name="area"> 
+            <input type="checkbox" id="amizade" name="area"   value="Amizade"> 
             <label for="financeira">Amizade </label>
-            <input type="checkbox" id="geral" name="area"> 
+            <input type="checkbox" id="geral" name="area" value="Geral"> 
             <label for="financeira">Geral </label>
         </div>
 
         <p class="p">Pergunta(s):</p>
-        <div id="pt"> </div>
+        <div id="pt" > </div>
 
-        <div class="data">
+        <div class="data" >
 
             <label>Data: </label>
-            <input type="date">
+            <input type="date" id="dt">
             <label>Hora: </label>
-            <input type="time">
+            <input type="time" id="hr">
         </div>
 
-          <div class="obs">
+          <div class="obs" >
             <label>Observação:</label>
-            <input type="text">
+            <input type="text" id="obs">
           </div>
-            <button class="agendarc">Agendar consulta</button>
+            <button class="agendarc" onclick="agendarc()" type="button">Agendar consulta</button>
             </form>
     </div>
 </div>
 
-    
 
+  <div id="overlayResumo">
+    <div id="resumo"></div>
+  </div>
 
      <header>
         
