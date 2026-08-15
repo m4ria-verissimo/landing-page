@@ -173,20 +173,27 @@ header button{
     background-color: #B05A42;
     margin-top: 18px;
     width: 190px;
-    height: 27px;
+    height: 22px;
     margin-left: 10px;
     border-radius: 10px;
     border:none;
+    text-decoration: none;
+    font-size: 11px;
+    text-align: center;
+    padding-top: 5px;
 }
 .whats{
      color:#FFF8F0;
     background-color: #2F3A28;
-    margin-bottom: 11px;
+    margin-bottom: 15px;
     width: 190px;
-    height: 27px;
+    height:22px ;
     margin-left: 10px;
+    font-size: 11px;
+    text-align: center;
+    padding-top:5px ;
+    text-decoration: none;
     border-radius: 10px;
-    border: none;
 }
 #sobre{
     background-image: url(WhatsApp\ Image\ 2026-08-02\ at\ 17.39.34.jpeg);
@@ -314,27 +321,26 @@ header button{
     position:fixed;
     inset:0;
     z-index:1000;
-
     align-items: center;
     justify-content: center;
-
     background: rgba(0,0,0,0.65);
 }
 #modal{
+
     background-image: url("textura-papel-antiguo_762785-169933.avif");
     width: 340px;
-    height: 600px;
+    height: 650px;
     overflow-y: auto;
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-top: 11vh;
+    margin-top: 5vh;
     text-align: center;
     border-radius: 14px;
   
 }
 .close-modal{
-    padding: 4px;
+    padding: 6px;
     padding-left: 11px;
     padding-right: 11px;
     margin-top: 25px;
@@ -374,5 +380,40 @@ label{
     margin-right: 200px;
     margin-bottom: 5px;
 }
+.data{
+    background-color:#5A3B2A;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+  
+    
+}
+.data label{
+    color:#EED8BB;
+  
+}
+.data input{
+    height: 10px;
+    width:150px ;
+     margin-left: 80px;
+     color:#EADDCF;
 
+}
+.obs{
+    margin-top: 12px;
+    margin-left: -50px;
+}
+.obs input{
+    width: 120px;
+    height:25px ;
+    color:#EED8BB;
+}
+.agendarc{
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #5A3B2A;
+    color:#EED8BB;
+    font-size: 12px;
+    border-radius: 10px;
 
+}
