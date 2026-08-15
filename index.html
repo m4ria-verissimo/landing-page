@@ -54,19 +54,23 @@
         <p class="p">Pergunta(s):</p>
         <div id="pt"> </div>
 
-            <label>Data</label>
-            <input type="date">
-            <label>Hora</label>
-            <input type="time">
+        <div class="data">
 
-            <br>
+            <label>Data: </label>
+            <input type="date">
+            <label>Hora: </label>
+            <input type="time">
+        </div>
+
+          <div class="obs">
             <label>Observação:</label>
             <input type="text">
-
-            <button>Agendar consulta</button>
+          </div>
+            <button class="agendarc">Agendar consulta</button>
             </form>
     </div>
 </div>
+
     
 
 
@@ -123,11 +127,13 @@
            <span>ao seu caminho.</span></h4>
            <P>---------------------------------------</P>
             <p>A vida é feita de escolhas <br> e os oráculos podem te mostrar<br> o melhor caminho a seguir. </p>
-            <button class="agendar">
-                <i data-lucide="calendar"></i> AGENDAR ATENDIMENTO</button>
+            <a href="#consultas" class="agendar" >
+                <i data-lucide="calendar" ></i> AGENDAR ATENDIMENTO </a>
             <br>
-            <button class="whats">
-                <i data-lucide="message-circle"></i> FALAR NO WHATSAPP</button>
+             <a href="https://wa.me/5521920072758"
+               target="_blank" class="whats">
+              FALAR NO WHATSAAP
+            </a>
        
         </section>
     <section class="sbmim" id="sobre">
@@ -163,7 +169,7 @@
             </div>
         </section>
              
-            
+      
         <section class="precos" id="consultas">
            
            <h2>Perguntas Avulsas</h2>
@@ -198,8 +204,7 @@
            </div>
 
         </section>
-  
-
+      
 
         <section class="feedback">
             <h3>O que minhas clientes dizem</h3>
