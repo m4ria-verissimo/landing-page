@@ -47,3 +47,9 @@ function agendar(botao){
 
   }
 }
+  const closeModal = document.querySelector(".close-modal");
+  const overlayModal = document.getElementById("overlay-modal");
+
+  closeModal.addEventListener("click" , () => {
+    overlayModal.style.display = "none";
+  })
