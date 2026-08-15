@@ -53,3 +53,69 @@ function agendar(botao){
   closeModal.addEventListener("click" , () => {
     overlayModal.style.display = "none";
   })
+
+  function agendarc(){
+    const nome = document.getElementById("nome").value;
+    const tel = document.getElementById("tel").value;
+    const nasc = document.getElementById("nasc").value;
+    const dt = document.getElementById("dt").value;
+    const hr = document.getElementById("hr").value;
+    const obs = document.getElementById("obs").value;
+    
+    const areas = document.getElementsByName("area");
+    const valorarea = [];
+
+    for(let area of areas){
+      if(area.checked){
+        valorarea.push(area.value);
+      }
+    }
+
+    const pt = document.querySelectorAll(" #pt input");
+   const valorpt = [];
+
+   for(let input of pt ){
+    valorpt.push(input.value);
+    
+   }
+  
+   const resumo = document.getElementById("resumo");
+
+   resumo.innerHTML= `
+         <h2>Resumo do agendamento</h2> 
+         <p>Nome: ${nome}</p>
+         <p>Telefone: ${tel}</p>
+         <p>Nascimento: ${nasc}</p>
+         <h2>Pergunta(s):</h2>
+         <p class="pt">${valorpt.join("<br>")}</p>
+         <h2>Área(s) escolhida(s):</h2>
+         <p> ${valorarea.join(" <br> ")}</p>
+         <h4>Data: ${dt}</h4>
+         <h4>Horário: ${hr}</h4>
+         <h5>Observação: ${obs}</h5>
+
+         <button id="voltar">Voltar e Editar</button>
+        <button id="enviar">Confirmar e Enviar</button> 
+         
+      ` ; 
+
+      const voltar = document.getElementById("voltar");
+      voltar.onclick = function(){
+        modalResumo.style.display="none";
+        overlayResumo.style.display="none";
+
+        const enviar = document.getElementById("enviar");
+        enviar.onclick= function(){
+          
+        }
+      }
+
+  const modalResumo = document.getElementById("resumo");
+  modalResumo.style.display="flex";
+  
+  const overlayResumo = document.getElementById("overlayResumo");
+  overlayResumo.style.display="flex";
+
+
+  }
+
