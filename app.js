@@ -90,8 +90,9 @@ function agendar(botao){
          <p class="pt">${valorpt.join("<br>")}</p>
          <h2>Área(s) escolhida(s):</h2>
          <p> ${valorarea.join(" <br> ")}</p>
-         <h4>Data: ${dt}</h4>
-         <h4>Horário: ${hr}</h4>
+         <h2>Horários:</h2>
+         <p>Data: ${dt}</p>
+         <p>Horário: ${hr}</p>
          <h5>Observação: ${obs}</h5>
 
          <button id="voltar">Voltar e Editar</button>
