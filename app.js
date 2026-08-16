@@ -132,7 +132,7 @@ function agendar(botao){
           Observação:${obs}
           `;
 
-          const numero ="5521996669067";
+          const numero ="5521920072758";
           const url = `https://wa.me/${numero}?text=${encodeURIComponent(msg)}`;
           window.open(url, "_blank");
         }
