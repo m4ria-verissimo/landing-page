@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    overflow: hidden;
+}
 
 #menu-btn{
     position: fixed;
@@ -493,9 +496,31 @@ label{
     .como{
         margin-top: -32px;
     }
-    .modal{
-        width: 100vw;
-        height: 100vh;
+    #modal{
+        width: 90vw;
+        height:100vh;
+    }
+    #resumo{
+        width: 90vw;
+        height:90vh;
+    }
+}
+@media(min-width:401px) and (max-width:600px){
+     #menu{
+         width: 80vw;
+    }
+    #menu h1{
+        text-align: center;
+    }
+    .como{
+        margin-top: -62px;
+    }
+    #modal{
+        width: 90vw;
+        height:90vh;
+    }
+    .body{
+        background-color: #EADDCF;
     }
 }
 
