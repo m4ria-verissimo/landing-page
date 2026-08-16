@@ -331,9 +331,9 @@ header button{
 #modal{
 
     background-image: url("textura-papel-antiguo_762785-169933.avif");
-     width: 340px;
-    height: 90vh;
-    max-height: 700px;
+     width: 300vw;
+    height: 100vh;
+    max-height: none;
     overflow-y: auto;
     justify-content: center;
     align-items: center;
