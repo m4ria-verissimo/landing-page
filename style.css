@@ -481,6 +481,44 @@ label{
     border-radius: 10px;
 
 }
+.feedback{
+     background-image: url(textura-papel-antiguo_762785-169933.avif);
+     background-repeat: no-repeat;
+     background-size: cover;
+      
+}
+.containerFeed{
+    display:flex;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+  
+    
+
+}
+.feedback h3{
+    color:#5A3B2A;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+    text-align: center;
+}
+.feedback i{
+    color:#B8863B;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+.feedback p{
+    font-style: italic;
+    
+}
+.feed{
+    border: 1px solid #9A6A2F;
+    margin-left: 4px;
+}
 
 
 
@@ -529,7 +567,7 @@ label{
     }
      #menu h1{
        text-align: center;
-    }
+    } 
     #menu{
         width:70vw;
     }
