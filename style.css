@@ -534,3 +534,8 @@ label{
         width:70vw;
     }
 }
+@media(min-width:601px) and (max-width:1200px){
+    #menu{
+        width:70vw ;
+    }
+}
