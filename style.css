@@ -519,6 +519,31 @@ label{
     border: 1px solid #9A6A2F;
     margin-left: 4px;
 }
+.contato{
+    padding-top: 10px;
+    border-top: #9A6A2F 1px solid;
+    
+}
+.contato p{
+    text-align: center;
+    color:#B8863B;
+    margin-top: 5px;
+    
+}
+.contato i{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left:20px ;
+    text-align: center;
+    color:#4A3525;
+}
+footer{
+    background-color: #4A3525;
+    color:#EED8BB;
+    text-align: center;
+    font-size: 12px;
+}
 
 
 
