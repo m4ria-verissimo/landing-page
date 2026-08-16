@@ -282,6 +282,7 @@ header button{
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
+    padding-bottom: 10px;
 }
 .precos h2{
     margin-left:10px;
@@ -539,8 +540,8 @@ label{
     color:#4A3525;
 }
 footer{
-    background-color: #EED8BB;
-    color:#4A3525;
+    background-color:#5A3B2A;
+    color:#EADDCF;
     text-align: center;
     font-size: 12px;
 }
