@@ -198,7 +198,7 @@ header button{
 }
 #sobre{
     background-image: url(WhatsApp\ Image\ 2026-08-02\ at\ 17.39.34.jpeg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
