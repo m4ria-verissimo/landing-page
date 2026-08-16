@@ -98,24 +98,45 @@ function agendar(botao){
         <button id="enviar">Confirmar e Enviar</button> 
          
       ` ; 
-
-      const voltar = document.getElementById("voltar");
-      voltar.onclick = function(){
-        modalResumo.style.display="none";
-        overlayResumo.style.display="none";
-
-        const enviar = document.getElementById("enviar");
-        enviar.onclick= function(){
-          
-        }
-      }
-
-  const modalResumo = document.getElementById("resumo");
+       const modalResumo = document.getElementById("resumo");
   modalResumo.style.display="flex";
   
   const overlayResumo = document.getElementById("overlayResumo");
   overlayResumo.style.display="flex";
 
 
-  }
+      const voltar = document.getElementById("voltar");
+      voltar.onclick = function(){
+        modalResumo.style.display="none";
+        overlayResumo.style.display="none";
+           
+        }
+        const enviar = document.getElementById("enviar");
+        enviar.onclick= function(){
+
+          const msg = ` Olá gostaria de confirmar meu agendamento.
+
+          Nome: ${nome}
+          Telefone: ${tel}
+          Nascimento: ${nasc}
+
+          Pergunta(s):
+          ${valorpt.join("\n")}
+
+          Área(s) escolhida(s):
+          ${valorarea.join("\n")}
+
+          Data:${dt}
+          Horário:${hr}
+          Observação:${obs}
+          `;
+
+          const numero ="5521996669067";
+          const url = `https://wa.me/${numero}?text=${encodeURIComponent(msg)}`;
+          window.open(url, "_blank");
+        }
+      }
+
+ 
+  
 
